@@ -1,0 +1,26 @@
+// Reference: How to write a Basic Java Program: The Calculator
+// Reference: Course Visual Learning Roadmap 
+// Recipe 1 How to Write the Basic Java Program: The Calculator
+
+public class Application{
+
+	public static void main(String[] args){
+		System.out.println("Starting program...");
+		Test myObj = new Test();
+		myObj. _test_Add();
+
+		System.out.println("Ending program...");
+	}
+}
+
+class Calculator{
+	public static float Add(float a, float b){
+		return a+b;
+	}
+}
+
+class TestDriver{
+	public float _test_Add(float a, float b){
+		Calculator.Add(2,2);
+	}
+}
